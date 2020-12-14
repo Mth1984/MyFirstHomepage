@@ -9,33 +9,53 @@
     
   </head>
 
-  <body>
-    <h1>Web Portfolio von Mathias</h1>
-
-    <h2>Willkommen!</h2>   
-
-    <p>Schön, dass Sie auf meiner Seite vorbeischauen.</p>
-
-    <p>Sie können sich ruhig etwas umsehen. Im Blog dokumentiere ich meine Erfahrungen beim Programmieren. Daneben können Sie auch meine Webprojekte anschauen. Viel Spass.</p>
+  <body>      
+    <video autoplay muted loop id="videoBG">
+        <!-- versuche mehrere Typen wenn der Browser den Filetyp nicht unterstützt wird ein text ausgegeben -->
+        <source src="./Assets/imgs/Background.mp4" type="video/mp4" />
+        <source src="./Assets/imgs/Background.mp4" type="video/ogg" />
+        Your browser does not support the video tag.
+    </video>
    
+    <div>
+        <h1 class="headline">Web Portfolio von Mathias</h1>
+        <div>
+            
 
-    <img id="img" src="./Assets/imgs/man.png" alt="My Picture">
-    <a href="my2testsite.html"> Über mich </a>
+            <h2 class="normalText">Willkommen!</h2>   
+
+            <p class="normalText">Schön, dass Sie auf meiner Seite vorbeischauen.</p>
+
+            <p class="normalText">Sie können sich ruhig etwas umsehen. Im Blog dokumentiere ich meine Erfahrungen beim Programmieren. Daneben können Sie auch meine Webprojekte anschauen. Viel Spass.</p>
+        </div>
+    </div>
+    <img id="imgPersonalFoto" src="./Assets/imgs/man.png" alt="My Picture">
+    <a class="normalText" href="my2testsite.html"> Über mich </a>
+   
     
-    <h2>
+    
+    <h2 class="normalText">
         Some Links:
     </h2>
-    <h3>
-        <a href="https://github.com/Mth1984"> Github Link</a>      
-    </h3>
-    <h3>
-        <a href="https://app.netlify.com"> Netlify Link</a>
-    </h3>
-    <h3>
-        <a href=" http://csstricks.com/"> CSS Tricks </a>
-    </h3>
 
-    <p>Mathias :-)</p>
+    <div>
+        <h3>
+            <a href="https://github.com/Mth1984"> <img id= "imgLinks" src="./Assets/imgs/GitHubLogo.png" alt="My Picture"> </a>              
+        </h3>
+
+        <h3 class="normalText">
+            <a class="normalText" href="https://app.netlify.com"> Netlify Link</a>        
+        </h3>
+
+        <h3>
+            <a class="normalText" href=" http://csstricks.com/"> CSS Tricks </a>
+        </h3>
+    </div>
+   
+  
+    
+
+    <p class="normalText">Mathias :-)</p>
   </body>
 </html>
 

@@ -1,0 +1,33 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+}
+
+h1 {
+    margin: 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    scale: 100%;
+}
+
+#img {
+    margin: 30px;
+    background-color: beige;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    max-width: 150px;
+   
+}
+
+#img:hover {
+    transform: scale(1.1)
+}

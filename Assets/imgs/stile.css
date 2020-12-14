@@ -1,0 +1,19 @@
+
+
+#img {
+    margin: 30px;
+    background-color: beige;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    max-width: 250px;
+   
+}
+
+#img:hover {
+    transform: scale(1.1)
+}
